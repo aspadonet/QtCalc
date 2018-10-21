@@ -32,3 +32,8 @@
 *.app
 
 *.user
+
+v15/
+GeneratedFiles/
+*.filters
+x64/
