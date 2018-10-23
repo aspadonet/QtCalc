@@ -12,11 +12,11 @@ void showMsgRes( QString res )
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
+    QApplication a(argc, argv); // avs
     CalcDialog w;
     w.show();
 
-    QListWidget lw;
+    QListWidget lw; // avs 2
     lw.show();
 
     QObject::connect( &w, &CalcDialog::calculatedNewResult, &showMsgRes );//cool
