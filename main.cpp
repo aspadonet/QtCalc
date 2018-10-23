@@ -12,7 +12,7 @@ void showMsgRes( QString res )
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
+    QApplication a(argc, argv); // avs
     CalcDialog w;
     w.show();
 
