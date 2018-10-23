@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     QListWidget lw;
     lw.show();
 
-    QObject::connect( &w, &CalcDialog::calculatedNewResult, &showMsgRes );
+    QObject::connect( &w, &CalcDialog::calculatedNewResult, &showMsgRes );//cool
 
     auto addNewResInListWidget = [ &lw ]( QString res ){
       lw.addItem( res );
