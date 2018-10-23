@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     CalcDialog w;
     w.show();
 
-    QListWidget lw;
+    QListWidget lw; // avs 2
     lw.show();
 
     QObject::connect( &w, &CalcDialog::calculatedNewResult, &showMsgRes );
